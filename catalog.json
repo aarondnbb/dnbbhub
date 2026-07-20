@@ -2,45 +2,57 @@
   "products": [
     {
       "id": "macbook-air-m2",
-      "label": "MacBook Air M2",
-      "queries": ["MacBook Air M2 8GB 256GB", "Apple MacBook Air M2"],
-      "max_price": 6500,
-      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"]
+      "name": "MacBook Air M2",
+      "query": "MacBook Air M2 8GB 256GB",
+      "required_terms": ["macbook", "air", "m2"],
+      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"],
+      "target_price": 6500,
+      "median_discount_trigger": 0.88
     },
     {
       "id": "macbook-air-m3",
-      "label": "MacBook Air M3",
-      "queries": ["MacBook Air M3 16GB 256GB", "Apple MacBook Air M3"],
-      "max_price": 8500,
-      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"]
+      "name": "MacBook Air M3",
+      "query": "MacBook Air M3 16GB 256GB",
+      "required_terms": ["macbook", "air", "m3"],
+      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"],
+      "target_price": 8500,
+      "median_discount_trigger": 0.88
     },
     {
       "id": "ddj-flx4",
-      "label": "Pioneer DJ / AlphaTheta DDJ-FLX4",
-      "queries": ["DDJ-FLX4", "Pioneer DDJ FLX4", "AlphaTheta DDJ-FLX4"],
-      "max_price": 2800,
-      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"]
+      "name": "Pioneer DJ / AlphaTheta DDJ-FLX4",
+      "query": "DDJ FLX4",
+      "required_terms": ["ddj", "flx4"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 2800,
+      "median_discount_trigger": 0.88
     },
     {
       "id": "ddj-flx10",
-      "label": "Pioneer DJ DDJ-FLX10",
-      "queries": ["DDJ-FLX10", "Pioneer DDJ FLX10"],
-      "max_price": 14500,
-      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"]
+      "name": "Pioneer DJ DDJ-FLX10",
+      "query": "DDJ FLX10",
+      "required_terms": ["ddj", "flx10"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 14500,
+      "median_discount_trigger": 0.88
     },
     {
       "id": "xdj-rx3",
-      "label": "Pioneer DJ XDJ-RX3",
-      "queries": ["XDJ-RX3", "Pioneer XDJ RX3"],
-      "max_price": 15500,
-      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"]
+      "name": "Pioneer DJ XDJ-RX3",
+      "query": "XDJ RX3",
+      "required_terms": ["xdj", "rx3"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 15500,
+      "median_discount_trigger": 0.88
     },
     {
       "id": "opus-quad",
-      "label": "AlphaTheta OPUS-QUAD",
-      "queries": ["AlphaTheta OPUS-QUAD", "Pioneer OPUS QUAD"],
-      "max_price": 22000,
-      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"]
+      "name": "AlphaTheta OPUS-QUAD",
+      "query": "AlphaTheta OPUS QUAD",
+      "required_terms": ["opus", "quad"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 22000,
+      "median_discount_trigger": 0.88
     }
   ]
 }
