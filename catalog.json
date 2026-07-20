@@ -1,0 +1,58 @@
+{
+  "products": [
+    {
+      "id": "macbook-air-m2",
+      "name": "MacBook Air M2",
+      "query": "MacBook Air M2 8GB 256GB",
+      "required_terms": ["macbook", "air", "m2"],
+      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"],
+      "target_price": 6500,
+      "median_discount_trigger": 0.88
+    },
+    {
+      "id": "macbook-air-m3",
+      "name": "MacBook Air M3",
+      "query": "MacBook Air M3 16GB 256GB",
+      "required_terms": ["macbook", "air", "m3"],
+      "blocked_terms": ["com defeito", "não liga", "somente caixa", "peças", "icloud bloqueado"],
+      "target_price": 8500,
+      "median_discount_trigger": 0.88
+    },
+    {
+      "id": "ddj-flx4",
+      "name": "Pioneer DJ / AlphaTheta DDJ-FLX4",
+      "query": "DDJ FLX4",
+      "required_terms": ["ddj", "flx4"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 2800,
+      "median_discount_trigger": 0.88
+    },
+    {
+      "id": "ddj-flx10",
+      "name": "Pioneer DJ DDJ-FLX10",
+      "query": "DDJ FLX10",
+      "required_terms": ["ddj", "flx10"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 14500,
+      "median_discount_trigger": 0.88
+    },
+    {
+      "id": "xdj-rx3",
+      "name": "Pioneer DJ XDJ-RX3",
+      "query": "XDJ RX3",
+      "required_terms": ["xdj", "rx3"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 15500,
+      "median_discount_trigger": 0.88
+    },
+    {
+      "id": "opus-quad",
+      "name": "AlphaTheta OPUS-QUAD",
+      "query": "AlphaTheta OPUS QUAD",
+      "required_terms": ["opus", "quad"],
+      "blocked_terms": ["capa", "case", "peças", "defeito", "somente caixa"],
+      "target_price": 22000,
+      "median_discount_trigger": 0.88
+    }
+  ]
+}
